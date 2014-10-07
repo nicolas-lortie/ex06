@@ -53,5 +53,20 @@ void main() {
   }
 
 
+  // Arguments for ex06_5
 
+  print('\nex06_5\n');
+
+
+  List food = [['strawberry', 'lemon', 'apple'], ['potato', 'carrot', 'cauliflower', 'russelsprout', 'bean'], ['ham', 'beef', 'chicken', 'bacon']];
+  List group = ['Fruit', 'Vegetables', 'Meat'];
+
+
+  print('Here is a list ordered by the type of food\n');
+  Map listing = foodgroup(group, food);
+
+  for (var a in listing.keys) {
+
+    print("${a}: ${listing[a]}");
+  }
 }

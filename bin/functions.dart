@@ -22,9 +22,9 @@ int days(DateTime datea, DateTime dateb) {
 
 gradeconverter(num grade) {
   List letter = ['A+', 'A', 'A-', 'B+', 'B', 'B-', 'C+', 'C', 'C-', 'D+', 'D', 'D-', 'E'];
-  List gradebreak = [101, 96, 92, 88, 84, 79, 75, 71, 67, 63, 59, 54, 50, 0];
+  List gradebreak = [100, 96, 92, 88, 84, 79, 75, 71, 67, 63, 59, 54, 50, 0];
 
-  if (grade < gradebreak[0] && grade >= gradebreak[0 + 1]) {
+  if (grade <= gradebreak[0] && grade >= gradebreak[0 + 1]) {
     return letter[0];
   } else if (grade < gradebreak[1] && grade >= gradebreak[1 + 1]) {
     return letter[1];
@@ -79,3 +79,22 @@ List functionnamelength(List namelist) {
   return resultlist;
 
 }
+
+// Functions for ex06_5
+
+
+foodgroup(var group, var food) {
+
+  var classification = new Map();
+
+  for (var x = 0; x <= 2; x++) {
+    classification[group[x]] = food[x];
+  }
+
+  return classification;
+}
+
+
+
+
+
