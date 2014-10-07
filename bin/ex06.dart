@@ -42,5 +42,16 @@ void main() {
   print('A student with a grade of $grade5 would have a corresponding letter grade of ${gradeconverter(grade5)}');
 
 
+  // Arguments for ex06_4
+
+  print('\nex06_4\n');
+  List list = ['Nicolas', 'Jean', 'Patrick', 'Elisabeth', 'Philippe', 'Katherine', 'Laurence'];
+  List resultList = functionnamelength(list);
+  for (var y = 0; y <= 2; y++) {
+    List text = ['Names with less than 8 letters:', 'Names with 8 letters:', 'Names with more than 8 letters:'];
+    print('${text.elementAt(y)} ${resultList.elementAt(y)}');
+  }
+
+
 
 }

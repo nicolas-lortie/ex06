@@ -55,7 +55,27 @@ gradeconverter(num grade) {
 
 // functions for ex06_4
 
+List functionnamelength(List namelist) {
 
+  List shorterthan8 = new List();
+  List equalto8 = new List();
+  List morethan8 = new List();
+  List resultlist = new List();
 
+  for (int w = 0; w <= namelist.length - 1; w++) {
+    var name = namelist.elementAt(w);
+    if (name.length < 8) {
+      shorterthan8.add(name);
+    } else if (name.length == 8) {
+      equalto8.add(name);
+    } else if (name.length > 8) {
+      morethan8.add(name);
+    }
+  }
+  resultlist.add(shorterthan8);
+  resultlist.add(equalto8);
+  resultlist.add(morethan8);
 
+  return resultlist;
 
+}
