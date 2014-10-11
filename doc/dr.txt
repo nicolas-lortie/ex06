@@ -2,3 +2,14 @@ Nicolas Lortie Rochette
 
 ex06
 
+?/20
+
+lib/fonctions.dart:
+library ex06;
+
+bin/rx06.dart:
+part of ex06;
+
+Il faut pas utiliser ..
+part '../lib/fonctions.dart';
+
