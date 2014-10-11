@@ -1,4 +1,4 @@
-part of ex06;
+library functions;
 
 // functions for ex06_1
 
