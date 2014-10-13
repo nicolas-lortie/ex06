@@ -1,5 +1,18 @@
 Nicolas Lortie Rochette
 
+?/20
+
+couleur rouge dans le projet!
+
+bin/ex06.dart
+? library ex06;
+Vous avez déjà une bibliothèque dans lib.
+
+.gitignore
+ignore packages
+
+---
+
 ex06
 
 ?/20
