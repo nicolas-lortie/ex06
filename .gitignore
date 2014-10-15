@@ -3,3 +3,4 @@ pubspec.lock
 bin/.DS_Store
 doc/.DS_Store
 packages/*
+packages
