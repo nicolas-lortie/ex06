@@ -2,4 +2,4 @@ pubspec.lock
 .DS_Store
 bin/.DS_Store
 doc/.DS_Store
-packages
+packages/*
