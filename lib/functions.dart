@@ -1,4 +1,4 @@
-library functions;
+library functions.dart;
 
 // functions for ex06_1
 

@@ -1,4 +1,4 @@
-library ex06;
+
 
 import 'package:intl/intl.dart'; //intl is a package that allows me to format date for ex06_2
 import 'package:ex06/functions.dart';
