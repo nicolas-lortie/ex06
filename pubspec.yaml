@@ -1,5 +1,5 @@
 name: ex06
 author: Nicolas Lortie
-description: A sample command-line application
+description: Ex06 SIO-2109
 dependencies:
   intl: any
