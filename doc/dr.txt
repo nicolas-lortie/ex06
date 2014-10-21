@@ -1,8 +1,27 @@
 Nicolas Lortie Rochette
 
-?/20
+18/20
 
-rien dans le répertoire lib
+supprimer des paquets de GitHub en les retirant d'abord sur votre ordinateur
+git rm -r dossier
+git add .
+git commit -m 'msg'
+git push
+
+http://stackoverflow.com/questions/6313126/how-to-remove-a-directory-in-my-github-repository
+
+-1
+attention: formatage (voir: https://www.dartlang.org/articles/style-guide/)
+DateTime randomdate1 --> DateTime randomdDate1
+String palindromelower --> String palindromeLower
+gradeconverter(num grade) { --> gradeConverter(num grade) {
+...
+
+-1
+6.5
+utilisation des positions d'éléments de liste n'est pas une solution générique
+List joueurs = [['Jordan', 'Bulls'], ...], ...
+List clubs = ['Bulls', ...
 
 ---
 
