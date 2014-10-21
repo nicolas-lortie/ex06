@@ -2,6 +2,12 @@ Nicolas Lortie Rochette
 
 ?/20
 
+rien dans le répertoire lib
+
+---
+
+?/20
+
 couleur rouge dans le projet!
 
 bin/ex06.dart
